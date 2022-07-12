@@ -3,7 +3,7 @@ import {defineStore} from 'pinia'
 export const useStore = defineStore({
 	id: 'store',
 	state: () => ({
-		activeNav: '/index',
+		activeNav: '/',
 		keyword: null,
 		music: {
 			url: null,
