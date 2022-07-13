@@ -132,6 +132,6 @@ npm run dev
 
 file.7z是客户端和服务端所需的静态资源，需要放在`D:\project`路径下，如想更换路径只需将application.yaml的`filePath`的值改变即可
 
-
+`file.7z`的下载路径是https://www.aliyundrive.com/s/VYEcEpJfxB2 提取码: 7gx3 
 
 该项目是参考 [music-website](https://github.com/Yin-Hongwei/music-website)所作
