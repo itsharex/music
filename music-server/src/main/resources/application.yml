@@ -29,11 +29,6 @@ spring:
   cache:
     type: redis
 
-# mybatis-plus
-mybatis-plus:
-  type-aliases-package: com.music.entity
-#  configuration:
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 # 文件存放路径
 filePath: 'D:\project\file\'
