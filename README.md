@@ -8,18 +8,18 @@
 
 > 后端技术
 
-| 名称                   | 版本        |
-| ---------------------- | ----------- |
-| Spring Boot            | 2.6.8       |
-| hibernate-validator    | 6.0.0.Final |
-| lombok                 | 1.18.24     |
-| druid                  | 1.2.8       |
-| hutool-all             | 5.5.7       |
-| mybatis-plus           | 3.4.3.1     |
-| mybatis-plus-generator | 3.3.0       |
-| fastjson2              | 2.0.7       |
-| jedis                  | 3.7.1       |
-| spring-boot-cache      | 2.6.8       |
+| 名称                   | 版本         |
+| ---------------------- | ------------ |
+| Spring Boot            | 2.6.8        |
+| hibernate-validator    | 6.0.19.Final |
+| lombok                 | 1.18.24      |
+| druid                  | 1.2.8        |
+| hutool-all             | 5.5.7        |
+| mybatis-plus           | 3.4.3.1      |
+| mybatis-plus-generator | 3.3.0        |
+| fastjson2              | 2.0.7        |
+| jedis                  | 3.7.1        |
+| spring-boot-cache      | 2.6.8        |
 
 > 前端技术
 
