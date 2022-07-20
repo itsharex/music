@@ -18,7 +18,6 @@
 	@import '@/assets/global.scss';
 	.not{
 		width: $width;
-		height: $height;
 		@include VHcenter;
 		.fund{
 			text-align: center;

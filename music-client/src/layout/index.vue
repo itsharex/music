@@ -39,6 +39,7 @@ import currentPlayList from '@/components/currentPlayList.vue'
 		}
 		.content{
 			width: $width81;
+			height: $height;
 			margin: 0 auto;
 			@include center;
 			flex-wrap: wrap;

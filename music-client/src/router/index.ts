@@ -43,12 +43,20 @@ const routes: RouterRecordRaw[] = [
 			{
 				path: '/lyrics/:id',
 				component: () => import('@/views/Lyrics.vue')
+			},
+			{
+				path: '/login',
+				component: () => import('@/views/login.vue')
+			},
+			{
+				path: '/:pathMatch(.*)',
+				redirect: '/404'
+			},
+			{
+				path: '/404',
+				component: () => import('@/views/404.vue')
 			}
 		]
-	},
-	{
-		path: '/login',
-		component: () => import('@/views/login.vue')
 	},
 	{
 		path: '/register',
@@ -61,14 +69,6 @@ const routes: RouterRecordRaw[] = [
 	{
 		path: '/personal',
 		component: () => import('@/views/personal.vue')
-	},
-	{
-		path: '/:pathMatch(.*)',
-		redirect: '404'
-	},
-	{
-		path: '/404',
-		component: () => import('@/views/404.vue')
 	}
 ]
 
