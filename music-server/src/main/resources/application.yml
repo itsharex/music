@@ -10,9 +10,9 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://localhost:3306/music
+    url: jdbc:mysql://localhost:3306/music?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=true
     username: root
-    password: 123456
+    password: root
   redis:
     host: localhost
     database: 0
