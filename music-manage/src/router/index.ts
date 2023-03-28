@@ -1,8 +1,8 @@
-import {createRouter, createWebHashHistory, RouterRecordRaw} from 'vue-router';
+import {createRouter, createWebHashHistory, RouteRecordRaw} from 'vue-router';
 import {sessionStorage} from '@/utils/storage.ts'
 import { ElMessage } from 'element-plus'
 
-const routes: RouterRecordRaw[] = [
+const routes: RouteRecordRaw[] = [
 	{
 		path: '/login',
 		component: () => import('@/views/login.vue')
